@@ -1,0 +1,53 @@
+<html>
+    
+<head>
+    <title>Agora Hw 2</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body id = "calculator">
+    <div>
+        <span id="headingText"><strong>Enter two numbers and choose the desired operation</strong></span>
+        <br/>
+        <br/>
+        <input type="Number 1" id="num1" placeholder="First Number"/>
+        <input type="Number 2" id="num2" placeholder="Second Number"/>
+        <br/>
+        <br/>
+        <button class="add" onclick="add()">Add</button>
+        <button class="subtract" onclick="subtract()">Subtract</button>
+        <button class="multiply" onclick="multiply()">Multiply</button>
+        <button class="divide" onclick="divide()">Divide</button>
+        <br/>
+        <br/>
+        <input id="output" placeholder="output"/>
+    </div>
+    <script>        
+        function add(){
+            let a = document.getElementById("num1").value
+            let b = document.getElementById("num2").value
+            document.getElementById("output").value = Number(a) + Number(b)
+        }
+
+        function subtract() {
+            let a = document.getElementById("num1").value
+            let b = document.getElementById("num2").value
+            document.getElementById("output").value = Number(a) - Number(b)
+          
+        }
+        function multiply() {
+            let a = document.getElementById("num1").value
+            let b = document.getElementById("num2").value
+            document.getElementById("output").value = Number(a) * Number(b)
+        }
+        function divide() {
+            let a = document.getElementById("num1").value
+            let b = document.getElementById("num2").value
+            document.getElementById("output").value = Number(a) / Number(b)
+        }
+    </script>
+</body>
+
+</html>
