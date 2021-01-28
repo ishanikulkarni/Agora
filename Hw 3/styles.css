@@ -13,7 +13,7 @@ body {
   width: 20vw;
   height: 100vh;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 200px;
   box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.13);
 }
 
@@ -48,11 +48,13 @@ body {
 input {
   margin-top: 10px;
   padding: 5px;
-  width: 90%;
+  width: 200%;
+  height: 5%;
   font-size: 1.25rem;
   border: 2px solid #099dfd;
   border-radius: 5px;
 }
+
 .submitButton {
   background-color: #099dfd;
   margin-top: 10px;
@@ -122,8 +124,8 @@ input {
   margin-left: 30px;
   justify-self: center;
   border: 2px solid #099dfd;
-  width: 800px;
-  height: 400px;
+  width: 750px;
+  height: 350px;
 }
 
 .boxContainer {
@@ -137,7 +139,32 @@ input {
   margin-top: 20px;
   justify-self: center;
   border: 2px solid #099dfd;
-  width: 400px;
-  height: 200px;
+  width: 230px;
+  height: 150px;
   margin: 10px;
+}
+
+#remoteStream2 {
+  text-align: left;
+  margin-top: 20px;
+  justify-self: center;
+  border: 2px solid #099dfd;
+  width: 230px;
+  height: 150px;
+  margin: 10px;
+}
+
+#remoteStream3 {
+  text-align: left;
+  margin-top: 20px;
+  justify-self: center;
+  border: 2px solid #099dfd;
+  width: 230px;
+  height: 150px;
+  margin: 10px;
+}
+
+#participants {
+  margin-top: 40px;
+  font-size: 20px;
 }
